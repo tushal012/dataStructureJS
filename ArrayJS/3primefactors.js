@@ -1,7 +1,5 @@
 const prompt = require("prompt-sync")();
 
-
-
 function isPrime(number) {
 let flag=0
 for(i=1;i<number;i++)
@@ -11,6 +9,7 @@ for(i=1;i<number;i++)
         break;
     }
 }
+
 if(flag==0)
     console.log("number is prime")
 else 
