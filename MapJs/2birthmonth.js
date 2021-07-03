@@ -1,5 +1,6 @@
 let birthMonthMap = new Map();
 
+
 for (let index = 1; index <= 12; index++)
     birthMonthMap.set(index, 0);
 
@@ -9,5 +10,5 @@ for (let index = 1; index <= 50; index++){
 
 }
 
-console.log("Birth month map is ");
+console.log("Birth month  is ");
 console.log(birthMonthMap);
