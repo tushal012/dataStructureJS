@@ -2,7 +2,7 @@
 const prompt = require("prompt-sync")();
   let numberArray = new Array();
 
-  for (i = 1; index < 10; i++) {
+  for (i = 1; i < 10; i++) {
       let num = Math.floor((Math.random() * (999 - 100 + 1)) + 100);
       numberArray.push(num);
   }
@@ -12,5 +12,5 @@ const prompt = require("prompt-sync")();
   let secondSmallest = numberArray.sort()[numberArray.length - 2];
    
   console.log("With Sorting ");
-  
+
   console.log("Second largest : " + secondLargest + "  Second Smallest : " + secondSmallest);
